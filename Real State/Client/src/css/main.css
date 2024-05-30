@@ -1,0 +1,28 @@
+/* Modal */
+
+:where(.css-dev-only-do-not-override-17seli4).ant-modal .ant-modal-title {
+  color: var(--red-color);
+}
+:where(.css-dev-only-do-not-override-17seli4).ant-modal
+  .ant-modal-footer
+  > .ant-btn
+  + .ant-btn,
+:where(.css-dev-only-do-not-override-17seli4).ant-modal
+  .ant-modal-footer
+  > .ant-btn
+  + .ant-btn:hover {
+  background-color: red;
+  color: var(--color-white) !important;
+}
+:where(.css-dev-only-do-not-override-17seli4).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  color: rgb(185 28 28 / var(--tw-text-opacity)) !important;
+  background: none;
+}
+:where(.css-dev-only-do-not-override-17seli4).ant-btn-default:not(:disabled):not(.ant-btn-disabled) {
+  border-color: #ccc;
+}
+:where(.css-dev-only-do-not-override-17seli4).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: inherit;
+  border-color: #ccc;
+  background: none;
+}
